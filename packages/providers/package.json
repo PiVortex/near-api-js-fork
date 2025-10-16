@@ -40,7 +40,7 @@
 		"@near-js/crypto": "^2.0.1"
 	},
 	"optionalDependencies": {
-		"node-fetch": "2.6.7"
+		"node-fetch": "3.3.2"
 	},
 	"files": [
 		"lib"
