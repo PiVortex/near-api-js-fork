@@ -1,0 +1,10 @@
+export { SignedTransactionComposer } from './signed_transaction_composer.js';
+export { j as TransactionComposer } from '../../index-BypKz79m.js';
+import '@near-js/types';
+import '@near-js/transactions';
+import '@near-js/accounts';
+import '../../interfaces/dependencies.js';
+import '@near-js/providers';
+import '@near-js/signers';
+import '../../interfaces/view.js';
+import '@near-js/crypto';
