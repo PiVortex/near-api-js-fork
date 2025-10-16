@@ -21,7 +21,7 @@
 		"@near-js/keystores": "workspace:*",
 		"@near-js/transactions": "workspace:*",
 		"@noble/hashes": "1.7.1",
-		"borsh": "1.0.0"
+		"borsh": "2.0.0"
 	},
 	"devDependencies": {
 		"@jest/globals": "^29.7.0",
