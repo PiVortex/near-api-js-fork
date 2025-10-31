@@ -91,8 +91,8 @@ importers:
         specifier: 1.7.1
         version: 1.7.1
       borsh:
-        specifier: 1.0.0
-        version: 1.0.0
+        specifier: 2.0.0
+        version: 2.0.0
       depd:
         specifier: 2.0.0
         version: 2.0.0
@@ -167,8 +167,8 @@ importers:
         specifier: 1.1.8
         version: 1.1.8
       borsh:
-        specifier: 1.0.0
-        version: 1.0.0
+        specifier: 2.0.0
+        version: 2.0.0
       buffer:
         specifier: 6.0.3
         version: 6.0.3
@@ -298,8 +298,8 @@ importers:
         specifier: 1.8.1
         version: 1.8.1
       borsh:
-        specifier: 1.0.0
-        version: 1.0.0
+        specifier: 2.0.0
+        version: 2.0.0
       randombytes:
         specifier: 2.1.0
         version: 2.1.0
@@ -462,8 +462,8 @@ importers:
         specifier: 1.8.1
         version: 1.8.1
       borsh:
-        specifier: 1.0.0
-        version: 1.0.0
+        specifier: 2.0.0
+        version: 2.0.0
       depd:
         specifier: 2.0.0
         version: 2.0.0
@@ -526,8 +526,8 @@ importers:
         specifier: workspace:*
         version: link:../utils
       borsh:
-        specifier: 1.0.0
-        version: 1.0.0
+        specifier: 2.0.0
+        version: 2.0.0
       exponential-backoff:
         specifier: ^3.1.2
         version: 3.1.2
@@ -573,8 +573,8 @@ importers:
         specifier: 1.7.1
         version: 1.7.1
       borsh:
-        specifier: 1.0.0
-        version: 1.0.0
+        specifier: 2.0.0
+        version: 2.0.0
     devDependencies:
       '@jest/globals':
         specifier: ^29.7.0
@@ -634,8 +634,8 @@ importers:
         specifier: 1.7.1
         version: 1.7.1
       borsh:
-        specifier: 1.0.0
-        version: 1.0.0
+        specifier: 2.0.0
+        version: 2.0.0
     devDependencies:
       '@jest/globals':
         specifier: ^29.7.0
@@ -1810,8 +1810,8 @@ packages:
   '@swc/counter@0.1.3':
     resolution: {integrity: sha512-e2BR4lsJkkRlKZ/qCHPw9ZaSxc0MVUd7gtbtaB7aMvHeJVYe8sOB8DBZkP2DtISHGSku9sCK6T6cnY0CtXrOCQ==}
 
-  '@swc/types@0.1.21':
-    resolution: {integrity: sha512-2YEtj5HJVbKivud9N4bpPBAyZhj4S2Ipe5LkUG94alTpr7in/GU/EARgPAd3BwU+YOmFVJC2+kjqhGRi3r0ZpQ==}
+  '@swc/types@0.1.25':
+    resolution: {integrity: sha512-iAoY/qRhNH8a/hBvm3zKj9qQ4oc2+3w1unPJa2XvTK3XjeLXtzcCingVPw/9e5mn1+0yPqxcBGp9Jf0pkfMb1g==}
 
   '@szmarczak/http-timer@4.0.6':
     resolution: {integrity: sha512-4BAffykYOgO+5nzBWYwE3W90sBgLJoUPRWWcL8wlyiM8IB8ipJz3UMJ9KXQd1RKQXpKp8Tutn80HZtWsu2u76w==}
@@ -2117,9 +2117,6 @@ packages:
 
   bn.js@4.12.1:
     resolution: {integrity: sha512-k8TVBiPkPJT9uHLdOKfFpqcfprwBFOAAXXozRubr7R7PfIuKvQlzcI4M0pALeqXN09vdaMbUdUj+pass+uULAg==}
-
-  borsh@1.0.0:
-    resolution: {integrity: sha512-fSVWzzemnyfF89EPwlUNsrS5swF5CrtiN4e+h0/lLf4dz2he4L3ndM20PS9wj7ICSkXJe/TQUHdaPTq15b1mNQ==}
 
   borsh@2.0.0:
     resolution: {integrity: sha512-kc9+BgR3zz9+cjbwM8ODoUB4fs3X3I5A/HtX7LZKxCLaMrEeDFoBpnhZY//DTS1VZBSs6S5v46RZRbZjRFspEg==}
@@ -3911,6 +3908,7 @@ packages:
   source-map@0.8.0-beta.0:
     resolution: {integrity: sha512-2ymg6oRBpebeZi9UUNsgQ89bhx01TcTkmNTGnNO88imTmbSgy4nfujrgVEFKWpMTEGA11EDkTt7mqObTPdigIA==}
     engines: {node: '>= 8'}
+    deprecated: The work that was done in this beta branch won't be included in future versions
 
   spawndamnit@3.0.1:
     resolution: {integrity: sha512-MmnduQUuHCoFckZoWnXsTg7JaiLBJrKFj9UI2MbRPGaJeVpsLcVBu6P/IGZovziM/YBsellCmsprgNA+w0CzVg==}
@@ -5649,7 +5647,7 @@ snapshots:
   '@swc/core@1.11.29':
     dependencies:
       '@swc/counter': 0.1.3
-      '@swc/types': 0.1.21
+      '@swc/types': 0.1.25
     optionalDependencies:
       '@swc/core-darwin-arm64': 1.11.29
       '@swc/core-darwin-x64': 1.11.29
@@ -5666,7 +5664,7 @@ snapshots:
   '@swc/counter@0.1.3':
     optional: true
 
-  '@swc/types@0.1.21':
+  '@swc/types@0.1.25':
     dependencies:
       '@swc/counter': 0.1.3
     optional: true
@@ -6023,8 +6021,6 @@ snapshots:
       is-windows: 1.0.2
 
   bn.js@4.12.1: {}
-
-  borsh@1.0.0: {}
 
   borsh@2.0.0: {}
 
