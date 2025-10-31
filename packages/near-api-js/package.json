@@ -26,7 +26,7 @@
         "depd": "2.0.0",
         "http-errors": "1.7.2",
         "near-abi": "0.2.0",
-        "node-fetch": "2.6.7"
+        "node-fetch": "3.3.2"
     },
     "devDependencies": {
         "@types/depd": "^1.1.37",
